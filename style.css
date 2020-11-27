@@ -1,0 +1,108 @@
+.nav-item{
+    float: right;
+}
+
+.carrossel{
+    width: 50%;
+    margin: auto;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-top: 200px;
+    padding-left: 30%;
+}
+
+.carousel-caption{
+    color: black;
+}
+
+body{
+    background-image: url(imagens/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    min-height: 30px;
+    width: 100%;
+}
+
+.engloba{
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+    float: right;
+}
+
+.rede{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 10px 10px 10px;
+    bottom: 0;
+    right: 0;
+}
+
+.icone{
+    width: 100%;
+}
+
+.botoes{
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+}
+
+.botao{
+    background: rgba(255, 255, 255, 0);
+    border: 0;  
+    width: 5px;  
+}
+
+.botao:focus{
+    outline-style: none;
+}
+
+.cards-deck1{
+    width: 90%;
+    padding-right: 10%;
+    padding-top: 20px;
+    margin: 50px;;    
+}
+
+.cards-deck2{
+    width: 90%;
+    padding-right: 10%;
+    padding-top: 20px;
+    margin: 50px;
+    
+}
+
+.special-card {
+    /* create a custom class so you 
+       do not run into specificity issues 
+       against bootstraps styles
+       which tends to work better than using !important 
+       (future you will thank you later)*/
+    
+      background-color: rgba(245, 245, 245, 1);
+      opacity: .8;
+}
+
+.card-img-top{
+    margin: ridge;
+}
+
+.blocod{
+    margin-left: 25%;
+}
+
+.img-fluid{
+    margin-left: 25%;
+}
